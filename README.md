@@ -43,6 +43,10 @@ Deceptive Alignment: If a model attempts to hide its identity or "signal" to a s
 
 Model Internals: The techniques used here to isolate "style" from "content" are directly applicable to identifying subliminal signals in model outputs.
 
+Python Code
+
+Now includes a Python/Scikit-Learn implementation for cross-language validation of stylometric features.
+
 💻 Installation & Usage
 Bash
 

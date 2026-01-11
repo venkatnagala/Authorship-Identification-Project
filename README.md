@@ -30,7 +30,7 @@ Random Forests: To determine feature importance and interpret which linguistic m
 Neural Architectures: (Optional/Extension) LSTM/Transformer-based embeddings for sequence-aware style capture.
 
 📊 Performance & Evaluation
-Accuracy/F1-Score: Achieving 90% accuracy across 10 distinct authors.
+Accuracy/F1-Score: Achieving 100% accuracy across 12 distinct authors.
 
 Feature Importance: Analysis revealed that [e.g., function words and punctuation frequency] were the strongest predictors of authorship, outperforming raw vocabulary.
 

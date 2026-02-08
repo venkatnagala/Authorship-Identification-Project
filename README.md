@@ -7,6 +7,21 @@ Executive Summary This project utilizes Natural Language Processing (NLP) and St
 
 Security Impact: In an era of automated content and identity theft, this work explores the intersection of linguistics and cybersecurity. The architecture is designed for scalability, allowing for real-time analysis of large datasets to flag inconsistencies in user behavior or identify potential security breaches.
 
+Strategic Design Decisions
+
+Modular NLP Pipeline: Designed the system to be language-agnostic. By isolating the tokenization layer from the classification layer, the architecture can be scaled to support multi-lingual fraud detection (e.g., English, German, Telugu) without core refactoring.
+
+Explainable AI (XAI): Prioritized models that provide "feature importance" so that security auditors can understand why a specific piece of text was flagged as an anomaly.
+
+Tech Stack Rationale
+
+Component          Technology              Rationale
+NLP Engine         NLTK / Spacy            Industrial-strength text processing with high accuracy in linguistic feature extraction.
+
+Database           PostgreSQL              Relational integrity for storing user "digital fingerprints" and historical audit trails.
+
+CI/CD              GitHub Actions          Automated linting and unit testing to ensure high code quality in a security-sensitive project.
+
 🚀 Research Motivation
 As Large Language Models (LLMs) become more ubiquitous, the ability to distinguish between different human authors (and between human vs. AI) is critical. This project focuses on:
 

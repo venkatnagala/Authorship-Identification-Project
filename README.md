@@ -1,6 +1,12 @@
 Authorship Identification: Forensic Stylometry in NLP
 This project implements a machine learning pipeline to identify authors based on linguistic patterns, syntactical structures, and stylometric features. While traditionally used in digital forensics and literary analysis, this project explores the technical foundations of Model Forensics—the ability to identify the "signature" of an intelligence source.
 
+Focus: Security, Fraud Prevention, and NLP.
+
+Executive Summary This project utilizes Natural Language Processing (NLP) and Stylometry to perform authorship attribution and anomaly detection. By analyzing linguistic patterns, the system creates "digital fingerprints" for text, serving as a powerful tool for identity verification and fraud prevention in digital communications.
+
+Security Impact: In an era of automated content and identity theft, this work explores the intersection of linguistics and cybersecurity. The architecture is designed for scalability, allowing for real-time analysis of large datasets to flag inconsistencies in user behavior or identify potential security breaches.
+
 🚀 Research Motivation
 As Large Language Models (LLMs) become more ubiquitous, the ability to distinguish between different human authors (and between human vs. AI) is critical. This project focuses on:
 
